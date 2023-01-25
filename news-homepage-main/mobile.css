@@ -1,0 +1,66 @@
+.container{
+    max-width: 370px;
+    width: 100%;
+    
+}
+
+.nav-bar{
+    display: none;
+}
+
+.nav-bar-mobal{
+    display: none;
+}
+
+.icon-close{
+    display: block;
+    position: absolute;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.image-main{
+    display: none;
+}
+
+.image-mobal{
+    display: flex;
+    width: 370px;
+}
+
+.icon-menu{
+    display: flex;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-right{
+    max-width: 370px;
+}
+
+.text-left h1{
+    font-size: 2.5rem;
+}
+
+.content-section-2{
+    width: 370px;
+    margin: auto;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    gap: 20px;
+    width: 370px;
+}

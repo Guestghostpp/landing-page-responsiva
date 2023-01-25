@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;1,500&family=Righteous&family=Roboto:ital,wght@0,700;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 62.5rem;
+  margin: auto;
+}
+
+.image-main{
+  width: 700px;
+}
+
+.icon-menu{
+  display: none;
+}
+
+.image-mobal{
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 1.8rem 0;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  font-weight: bolder;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 1.7rem;
+  font-family: Poppins;
+  font-size: 15px;
+  color: rgb(99, 100, 120);
+  cursor: pointer;
+}
+
+.nav-bar-mobal{
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  padding: 40px;
+  padding-right: 140px;
+  height: 100vh;
+}
+
+.nav-items-mobal{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 10rem;
+  gap: 1.7rem;
+  font-family: Poppins;
+  font-size: 15px;
+  color: rgb(99, 100, 120);
+  cursor: pointer;
+}
+
+.icon-close{
+  display: none;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  font-family: Poppins;
+  padding: 1rem 0;
+}
+
+.text-left h1 {
+  font-size: 3em;
+  line-height: 3.2rem;
+}
+
+.text-right {
+  width: 31.25rem;
+}
+
+.text-right p {
+  font-size: 13px;
+  color: rgb(99, 100, 120);
+}
+
+.text-right button {
+  padding: 10px 25px;
+  margin: 30px 0;
+  font-size: 10px;
+  letter-spacing: 3px;
+  background-color: rgb(242, 93, 80);
+  border: none;
+  color: #fff;
+}
+
+.content-section-2 h1 {
+  color: rgb(232, 169, 78);
+  margin-bottom: 10px;
+}
+
+.content-section-2 {
+  background-color: rgb(0, 0, 26);
+  color: #fff;
+  margin-left: 30px;
+  padding: 20px;
+  font-family: Poppins;
+}
+
+.section-2 p {
+  font-size: 13px;
+  margin-bottom: 1.2rem;
+  margin-top: 10px;
+  color: rgb(99, 100, 120);
+}
+
+.section-div-1 {
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid rgb(99, 100, 120);
+}
+
+.section-div-2 {
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid rgb(99, 100, 120);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-family: Poppins;
+  padding: 1rem 0;
+}
+
+.div-footer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.image-div img {
+  width: 80px;
+}
+
+.div-footer p{
+  font-size: 12px;
+  color: rgb(99, 100, 120);
+}
+
+.div-footer h2{
+  color: rgb(99, 100, 120);
+}
